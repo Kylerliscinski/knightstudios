@@ -15,47 +15,51 @@
     defer></script>
 </head>
 
-<body class="debug">
+<body class="debug m-0">
 
-  <header class="container-fluid row p-0 m-0">
-    <div class="text-center col-12 p-5 bg-dark text-light m-0">
-      <span class="mdi mdi-bat logo"></span>
-      <h1>Welcome To Knight Studios</h1>
-      <p>WE ARE A TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</p>
-      <button class="btn btn-success">GET STARTED</button>
-    </div>
+  <header class="container-fluid p-0 m-0">
+    <section class="row">
+      <div class="text-center col-12 p-5 bg-dark text-light neg-margin">
+        <span class="mdi mdi-bat logo"></span>
+        <h1>Welcome To Knight Studios</h1>
+        <p class="sm-font">WE ARE A TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</p>
+        <button class="btn btn-success">GET STARTED</button>
+      </div>
+    </section>
   </header>
 
   <main class="container-fluid">
     <nav class="shadow row d-flex align-content-end p-3">
-      <div class="col-4">
+      <div class="col-3 p-1">
         <span class="mdi mdi-bat logo"></span>
       </div>
-      <div class="col-1">
-        <span class="text-success">HOME</span>
-      </div>
-      <div class="col-1">
-        <span>ABOUT</span>
-      </div>
-      <div class="col-1">
-        <span>SERVICES</span>
-      </div>
-      <div class="col-1">
-        <span>PORTFOLIO</span>
-      </div>
-      <div class="col-1">
-        <span class="text-success">TEAM</span>
-      </div>
-      <div class="col-1">
-        <span>PRICING</span>
-      </div>
-      <div class="col-1">
-        <span>DROP DOWN</span>
-      </div>
-      <div class="col-1">
-        <span>CONTACT</span>
-      </div>
-      </div>
+      <div class="col-9 d-flex justify-content-center">
+        <div class="row justify-content-between text-center align-content-center sm-font w-100">
+          <div class="col-1 text-success">
+            <span>HOME</span>
+          </div>
+          <div class="col-1">
+            <span>ABOUT</span>
+          </div>
+          <div class="col-1">
+            <span>SERVICES</span>
+          </div>
+          <div class="col-1">
+            <span>PORTFOLIO</span>
+          </div>
+          <div class="col-1">
+            <span class="text-success">TEAM</span>
+          </div>
+          <div class="col-1">
+            <span>PRICING</span>
+          </div>
+          <div class="col-1 d-block">
+            <span>DROP DOWN</span>
+          </div>
+          <div class="col-1">
+            <span>CONTACT</span>
+          </div>
+        </div>
       </div>
       </div>
     </nav>
@@ -63,14 +67,14 @@
 
     <section class="row justify-content-center align-items-center g-2">
       <div class="col-12 text-center p-1">
-        <h1>ABOUT US</h1>
+        <h2>ABOUT US</h2>
         <p>Batman is the greatest</p>
       </div>
       </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-6 d-flex justify-content-end">
-            <img class="hero-1 border border-white shadow border-5"
+            <img class="hero-1 shadow border-thick"
               src="https://images-ext-2.discordapp.net/external/PECzzmphoUjd_yNugrwSi_u14JCLKWGtfPwcQ5fLOQo/%3Fq%3D80%26w%3D2676%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D/https/images.unsplash.com/photo-1542744095-fcf48d80b0fd?format=webp&width=852&height=565"
               alt="People working">
           </div>
@@ -85,8 +89,8 @@
     </section>
 
     <section class="row justify-content-end g-2">
-      <div class="col-12 text-center">
-        <h1>SERVICES</h1>
+      <div class="col-12 text-center p-1">
+        <h2>SERVICES</h2>
         <p>Something is really cool</p>
       </div>
       </div>
@@ -261,7 +265,7 @@
         <span class="mdi mdi-cellphone-basic"></span>
         <span></span><span></span><span></span>
       </div>
-      <form action="">
+      <form action="submit">
         <input type="text">
         <input type="text">
         <input type="text">
@@ -270,19 +274,24 @@
       </form>
     </section>
 
-    <section class="row text-center bg-image-footer">
-      <div>
-        <input type="text"><button class="btn btn-success"></button>
-      </div>
-      <span class="mdi mdi-bat"></span>
-      <h1>KNIGHT</h1>
-      <p>We totally don't kill people or participate in vigilante justice.</p>
-      <span class="mdi mdi-facebook"></span>
-      <span class="mdi mdi-twitter"></span>
-      <span class="mdi mdi-instagram"></span>
-      <span class="mdi mdi-skype"></span>
-      <span class="mdi mdi-linkedin"></span>
-      </e>
+    <section class="row text-center bg-dark text-light">
+      <div class="col-12 p-3">
+        <form action="submit">
+          <input type="text" placeholder="Enter your email" class="rounded pill border-0">
+          <button class="btn btn-success">Subscribe</button>
+        </form>
+        <div class="p-0">
+          <span class="mdi mdi-bat logo p-0"></span>
+        </div>
+        <h1>Knight</h1>
+        <p>We totally don't kill people or participate in vigilante justice.</p>
+        <div class="d-flex justify-content-center text-center fs-1 text-success p-2">
+          <span class="mdi mdi-facebook p-2"></span>
+          <span class="mdi mdi-twitter p-2"></span>
+          <span class="mdi mdi-instagram p-2"></span>
+          <span class="mdi mdi-skype p-2"></span>
+          <span class="mdi mdi-linkedin p-2"></span>
+        </div>
       </div>
     </section>
   </footer>
