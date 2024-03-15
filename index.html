@@ -210,7 +210,7 @@
       </div>
     </section>
 
-    <section class="row bg-dark bg-image m-0 w-100">
+    <section class="row bg-dark bg-image m-0 w-105">
       <div class="col-12 text-center p-3 m-0">
         <div>
           <span class="mdi mdi-comment-quote text-success fs-2"></span>
@@ -218,8 +218,13 @@
         <div>
           <p class="fs-5 text-light"><em>"Accomplice? I'm gonna tell them the whole thing was your idea."</em></p>
         </div>
+        <div>
+          <img class="small-img" src="batman-removebg-preview.png" alt="batman">
+        </div>
+        <div class="text-white text-bold">
+          <h5>Batman (The older one)</h5>
+        </div>
       </div>
-      //FIXME - add image of dude and title and dots underneath//
     </section>
 
     <section class="row p-3 bg-secondary">
@@ -241,13 +246,14 @@
         <button class="btn btn-success">Buy Now</button>
       </div>
       <div class="col-3 card p-2 border border-1 border-success">
-        <span class="rounded bg-success text-success" style="--bg-bg-opacity: .30">recommended</span>
+        <div class="bg-success rounded text-white text-center" style="--bg-bg-opacity: .30">
+          <span>RECOMMENDED</span>
+        </div>
         <h4>Business</h4>
         <span>$19/month</span>
         <span>words</span>
         <span>words</span>
         <span>words</span>
-        <span>tiny words</span>
         <span>tiny words</span>
         <button class="btn btn-success">Buy Now</button>
       </div>
@@ -312,11 +318,14 @@
         </div>
       </div>
       </div>
-      <form action="submit" class="d-flex col-6 p-2 card bg-white">
-        <input type="text" class="w-40">
-        <input type="text" class="w-40">
-        <input type="text" class="w-100">
-        <input type="textbox" class="w-100">
+      <form action="submit" class="d-flex col-7 card bg-white">
+        <!-- //NOTE - I was trying to get these two inputs side-by-side -->
+        <div class="row justify-content-between px-3">
+          <input type="text" placeholder="Your Name" class="w-20 col-6">
+          <input type="text" placeholder="Your Email" class="w-20 col-6">
+        </div>
+        <input type="text" placeholder="Subject" class="w-100">
+        <input type="text" placeholder="Message" class="w-100 h-50">
         <button class="btn btn-success">Send Message</button>
       </form>
     </section>
