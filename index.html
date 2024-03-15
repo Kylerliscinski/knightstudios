@@ -210,8 +210,8 @@
       </div>
     </section>
 
-    <section class="row bg-dark bg-image p-3" style="--bg-bg-opacity: .75">
-      <div class="col-12 text-center">
+    <section class="row bg-dark bg-image m-0 w-100">
+      <div class="col-12 text-center p-3 m-0">
         <div>
           <span class="mdi mdi-comment-quote text-success fs-2"></span>
         </div>
@@ -222,16 +222,16 @@
       //FIXME - add image of dude and title and dots underneath//
     </section>
 
-    <section class="row">
-      <div class="col-12">
+    <section class="row p-3 bg-secondary">
+      <div class="col-12 text-center">
         <h1>PRICING</h1>
-        <span>To turn fear against those who prey on the fearful.</span>
+        <p>To turn fear against those who prey on the fearful.</p>
       </div>
     </section>
 
-    <section class="row">
-      <div class="col-4">
-        <span>Free</span>
+    <section class="row d-flex justify-content-around bg-secondary">
+      <div class="col-3 card p-2 border-0">
+        <h4>Free</h4>
         <span>$0/month</span>
         <span>words</span>
         <span>words</span>
@@ -240,9 +240,9 @@
         <span>tiny words</span>
         <button class="btn btn-success">Buy Now</button>
       </div>
-      <div class="col-4">
+      <div class="col-3 card p-2 border border-1 border-success">
         <span class="rounded bg-success text-success" style="--bg-bg-opacity: .30">recommended</span>
-        <span>Business</span>
+        <h4>Business</h4>
         <span>$19/month</span>
         <span>words</span>
         <span>words</span>
@@ -251,8 +251,8 @@
         <span>tiny words</span>
         <button class="btn btn-success">Buy Now</button>
       </div>
-      <div class="col-4">
-        <span>Developer</span>
+      <div class="col-3 card pt-2 border-0">
+        <h4>Developer</h4>
         <span>$29/month</span>
         <span>words</span>
         <span>words</span>
@@ -264,7 +264,7 @@
     </section>
 
 
-    <section class="row">
+    <section class="row bg-secondary">
       <div class="col-12">
 
       </div>
@@ -281,30 +281,42 @@
     </section>
   </main>
 
-  <footer class="container-fluid">
+  <footer class="container-fluid bg-secondary">
     <section class="row">
-      <div class="col-12">
+      <div class="col-12 text-center p-2">
         <h1>CONTACT</h1>
-        <p>aldskfj;asldkfj;aslkdfj;alskjf</p>
+        <p>I'll be standing where l belong. Between you and the peopIe of Gotham.</p>
       </div>
     </section>
 
-    <section class="row">
-      <div class="col-3">
-        <span class="mdi mdi-map-marker-account"></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span class="mdi mdi-email-arrow-right-outline"></span>
-        <span></span><span></span><span></span>
-        <span class="mdi mdi-cellphone-basic"></span>
-        <span></span><span></span><span></span>
+    <section class="row d-flex justify-content-between p-4">
+      <div class="col-5 card bg-white">
+        <div class="row">
+          <div class="col-3">
+            <span class="mdi mdi-map-marker-account text-success fs-4"></span>
+            <span class="mdi mdi-email-arrow-right-outline text-success fs-4"></span>
+            <span class="mdi mdi-cellphone-basic text-success fs-4"></span>
+          </div>
+          <div class="col-9">
+            <h4>Location</h4>
+            <p>The Bat Cave</p>
+            <p>Wayne Manor</p>
+            <p>Gotham City</p>
+            <h4>Email</h4>
+            <p>batman@wayneenterprises.com</p>
+            <p>knight@knightinc.com</p>
+            <h4>Call</h4>
+            <p>555-555-5555</p>
+            <p>1-800-999-9999</p>
+          </div>
+        </div>
       </div>
-      <form action="submit">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
+      </div>
+      <form action="submit" class="d-flex col-6 p-2 card bg-white">
+        <input type="text" class="w-40">
+        <input type="text" class="w-40">
+        <input type="text" class="w-100">
+        <input type="textbox" class="w-100">
         <button class="btn btn-success">Send Message</button>
       </form>
     </section>

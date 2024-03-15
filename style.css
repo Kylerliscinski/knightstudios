@@ -21,11 +21,6 @@ p {
   font-weight: lighter;
 }
 
-.neg-margin {
-  margin-top: -1em;
-  margin-bottom: -1em;
-}
-
 .bg-dark-white {
   background-color: #a7a6a6;
 }
