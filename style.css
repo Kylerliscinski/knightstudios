@@ -9,6 +9,7 @@ p {
 
 .logo {
   font-size: 72pt;
+  object-fit: cover;
 }
 
 .hero-1 {
@@ -66,4 +67,12 @@ p {
 
 .transparency {
   opacity: .6 !important;
+}
+
+.navbarfix {
+  max-height: 80px;
+}
+
+.padextreme {
+  padding: 200px
 }
