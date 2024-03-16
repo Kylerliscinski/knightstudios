@@ -28,9 +28,11 @@ p {
 .bg-image {
   background-image: url("https://plus.unsplash.com/premium_photo-1664392543043-91b0c3686c7b?q=80&w=2822&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-color: black;
-  width: 100%;
-  height: 30dvh;
-  justify-content: baseline;
+  max-width: 100%;
+  height: 40dvh;
+  object-position: center;
+  object-fit: cover;
+  margin: 0;
 }
 
 .bg-image-footer {
@@ -43,4 +45,28 @@ p {
 
 .border-thick {
   border: 12px solid white;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border: 5px solid grey;
+  border-radius: 100%;
+}
+
+.dotg {
+  height: 15px;
+  width: 15px;
+  border: 5px solid green;
+  border-radius: 100%;
+}
+
+.bat {
+  height: 100px;
+  width: 100px;
+  background-image: url(https://images.unsplash.com/photo-1495741770155-e4137dcb83ec?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  object-fit: cover;
+  border-radius: 50%;
+  display: inline-block;
+  border: solid 5px green;
 }
