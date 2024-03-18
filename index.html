@@ -11,8 +11,8 @@
     https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css
     " rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
-    defer></script>
+  <!-- <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
+    defer></script> -->
 </head>
 
 <body class="m-0">
@@ -210,8 +210,12 @@
       </div>
     </section>
 
+<section>
     <section class="row bg-image m-0 p-0">
       <div class="col-12 text-center m-0 p-3">
+    <section class="row bg-dark bg-image m-0 w-105">
+      <div class="col-12 text-center p-3 m-0">
+        </section>
         <div>
           <span class="mdi mdi-comment-quote text-success fs-2 opaque"></span>
         </div>
@@ -229,6 +233,12 @@
             <div><span class="mdi mdi-circle-small text-secondary fs-2"></span></div>
             <div><span class="mdi mdi-circle-small text-success fs-2"></span></div>
           </div>
+        </div>
+        <div>
+          <img class="small-img" src="batman-removebg-preview.png" alt="batman">
+        </div>
+        <div class="text-white text-bold">
+          <h5>Batman (The older one)</h5>
         </div>
       </div>
     </section>
@@ -251,6 +261,7 @@
         <span class="p-0 lh-0 mb-0">tiny words</span>
         <button class="btn btn-success">Buy Now</button>
       </div>
+<section>
       <div class="col-md-3 col-12 card p-2 border border-1 border-success">
         <span class="rounded bg-success text-success" style="--bg-bg-opacity: .30">recommended</span>
         <h4 class="p-0 lh-0 mb-0">Business</h4>
@@ -260,6 +271,17 @@
         <span class="p-0 lh-0 mb-0">words</span>
         <span class="p-0 lh-0 mb-0">tiny words</span>
         <span class="p-0 lh-0 mb-0">tiny words</span>
+      <div class="col-3 card p-2 border border-1 border-success">
+        <div class="bg-success rounded text-white text-center" style="--bg-bg-opacity: .30">
+          <span>RECOMMENDED</span>
+        </div>
+        <h4>Business</h4>
+        <span>$19/month</span>
+        <span>words</span>
+        <span>words</span>
+        <span>words</span>
+        <span>tiny words</span>
+        </section>
         <button class="btn btn-success">Buy Now</button>
       </div>
       <div class="col-md-3 col-12 card pt-4 border-0">
@@ -320,11 +342,21 @@
         </div>
       </div>
       </div>
+<section>
       <form action="submit" class="d-flex col-md-6 order-md-1 col-12 p-2 card bg-white">
         <input type="text" class="w-40">
         <input type="text" class="w-40">
         <input type="text" class="w-100">
         <input type="textbox" class="w-100">
+      <form action="submit" class="d-flex col-7 card bg-white">
+        <!-- //NOTE - I was trying to get these two inputs side-by-side -->
+        <div class="row justify-content-between px-3">
+          <input type="text" placeholder="Your Name" class="w-20 col-6">
+          <input type="text" placeholder="Your Email" class="w-20 col-6">
+        </div>
+        <input type="text" placeholder="Subject" class="w-100">
+        <input type="text" placeholder="Message" class="w-100 h-50">
+        </section>
         <button class="btn btn-success">Send Message</button>
       </form>
     </section>

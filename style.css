@@ -23,7 +23,7 @@ p {
 }
 
 .bg-dark-white {
-  background-color: #a7a6a6;
+  background-color: #e8f8f8;
 }
 
 .bg-image {
@@ -51,6 +51,7 @@ p {
   border: 12px solid white;
 }
 
+main
 .bat {
   height: 100px;
   width: 100px;
@@ -75,4 +76,7 @@ p {
 
 .padextreme {
   padding: 200px
+}
+.small-img {
+  width: 10dvh;
 }
